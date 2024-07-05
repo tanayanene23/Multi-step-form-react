@@ -1,0 +1,51 @@
+.sidebar{
+    background-color: hsl(0, 0%, 100%);
+    padding: 0 1em;
+    margin-top: 1em;
+}
+
+.sidebar-image img{
+    position: relative;
+    height: 28em;
+}
+
+.sidebar-content{
+    position: absolute;
+    top: 20vh;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 1em;
+}
+
+
+.sidebar-content p{
+    font-size: 0.7em;
+    color: hsl(229, 24%, 87%);
+}
+
+.sidebar-content h4{
+    height: 2em;
+    width: 2em;
+    border: 0.1em solid hsl(229, 24%, 87%);
+    border-radius: 5em;
+    text-align: center;
+    padding-top: 0.4em;
+}
+
+.step{
+    display: flex;
+    gap: 1em;
+}
+
+.active .to-highlight{
+    background-color: hsl(206, 94%, 87%);
+    color: hsl(213, 96%, 18%);
+}   
+
+.to-highlight{
+    cursor: pointer;
+}

@@ -1,0 +1,70 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 40vw;
+}
+
+
+.step-4{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+.final-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-details{
+    background-color: hsl(217, 100%, 97%);
+    padding: 1em;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+hr{
+    border: 0.1em solid hsl(229, 24%, 87%);
+}
+
+.total{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total p:nth-child(2){
+    font-weight: 500;
+}
+
+
+.final-details{
+    color: hsl(231, 11%, 63%);
+}
+
+.final-details:nth-child(1){
+    color: hsl(213, 96%, 18%);
+    font-weight: 700;
+}
+
+#changePlan{
+    color: grey;
+    text-decoration: underline;
+}
+
+#changePlan:hover{
+    color: rgb(71, 61, 255);
+}
+
+.total :nth-child(1){
+    color: hsl(231, 11%, 63%);
+}
+
+.total :nth-child(2){
+    color: hsl(243, 100%, 62%);
+    font-size: 1.3em;
+}

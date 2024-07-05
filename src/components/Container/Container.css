@@ -1,0 +1,11 @@
+
+.form-area{
+    background-color: hsl(0, 0%, 100%);
+    height: 30em;
+    width: 55em;
+    border-radius: 0.7em;
+
+    display: flex;
+    /* align-items: center; */
+    gap: 5em;
+}

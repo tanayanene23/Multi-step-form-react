@@ -1,0 +1,105 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 30vw;
+}
+
+.plan{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan img{
+    margin-bottom: 2em;
+}
+
+.plan-type{
+    border: 0.1em solid hsl(229, 24%, 87%);
+    border-radius: 0.5em;
+    height: 10em;
+    width: 8em;
+    padding-top: 1.3em;
+    padding-left: 1em;
+    cursor: pointer;
+}
+
+.isActive{
+    background-color: hsl(217, 100%, 97%);
+    border-color: hsl(243, 100%, 62%);
+}
+
+.plan-type:hover{
+    border-color: hsl(243, 100%, 62%);
+}
+
+.plan p:nth-child(2){
+    color:  hsl(213, 96%, 18%);
+    font-weight: 700;
+}
+
+.plan-type #cost{
+    color: hsl(231, 11%, 63%);
+}
+
+#select{
+    cursor: pointer;
+}
+
+#changePlan{
+    cursor: pointer;
+}
+
+#addon-price{
+    color: hsl(213, 96%, 18%);
+}
+
+/* #changePlan:hover{
+    color: hsl(243, 100%, 62%);
+} */
+
+
+.toggle-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: hsl(217, 100%, 97%);
+    border-radius: 0.5em;
+    padding: 0.5em 0em;
+}
+
+
+/* toggle switch */
+
+.toggle {
+    position: relative;
+    width: 2.5em;
+    height: 1.2em;
+    background-color: hsl(213, 96%, 18%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.circle {
+    position: absolute;
+    left: 10%;
+    width: 1em;
+    height: 1em;
+    border-radius: 20px;
+    background-color: white;
+    transition: .3s;
+}
+
+
+.active .circle {
+    left: 90%;
+    transform: translateX(-100%);
+    transition: .3s;
+}
+
+
